@@ -1,0 +1,18 @@
+# Core dependencies for GIM3E
+cobra>=0.26.0
+numpy>=1.20.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Optional dependencies
+# For visualization
+matplotlib>=3.5.0
+
+# For development and testing
+# pytest>=7.0.0
+# pytest-cov>=3.0.0
+
+# Note: CPLEX or Gurobi solver recommended for MILP problems
+# CPLEX: pip install cplex (requires IBM ILOG CPLEX license)
+# Gurobi: pip install gurobipy (requires Gurobi license)
+# GLPK is included with COBRApy but performs poorly for MILP
